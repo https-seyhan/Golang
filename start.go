@@ -32,4 +32,8 @@ func main() {
 	delete(vertices, "square")
 	fmt.Println(vertices)
 	fmt.Println(vertices["triangle"])
+	
+	for i:=0; i <5; i++{
+		fmt.Println(i)
+	}
 }

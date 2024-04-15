@@ -44,4 +44,11 @@ func main() {
 	for key, value := range m{
 		fmt.Println(key, value)
 	} 
+	
+	result :=sum(4,5)
+	fmt.Println(result)
+}
+
+func sum(x int, y int) int {
+	return x + y
 }

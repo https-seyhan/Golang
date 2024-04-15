@@ -18,5 +18,6 @@ func main() {
 	}
 	
 	var a [5]int
+	a[1] = 7
 	fmt.Println(a)
 }

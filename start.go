@@ -36,4 +36,12 @@ func main() {
 	for i:=0; i <5; i++{
 		fmt.Println(i)
 	}
+	
+	m:=make(map[string]string)
+	m["a"] = "alpha"
+	m["b"] ="beta"
+	
+	for key, value := range m{
+		fmt.Println(key, value)
+	} 
 }

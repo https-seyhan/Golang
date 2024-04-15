@@ -20,6 +20,7 @@ func main() {
 	var a [5]int
 	a[1] = 7
 	b :=[]int{1, 2, 3, 4, 5}
+	b = append(b, 13)
 	fmt.Println(a)
 	fmt.Println(b)
 }

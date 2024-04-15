@@ -14,6 +14,7 @@ func main() {
 
 	p :=person {name: "Saul", age: 35}
 	fmt.Println(p)
+	fmt.Println(p.name)
 	
 	//fmt.Println("Test")
 	x := 5

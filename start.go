@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"errors"
+	"math"
 )
 
 func main() {
@@ -50,5 +52,23 @@ func main() {
 }
 
 func sum(x int, y int) int {
+	
+	
+	result, err := sqrt(16)
+	
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println(result)
+	}
 	return x + y
 }
+
+func sqrt(x float64) (float64, error) {
+	if x < 0 {
+		return 0, errors.New("Negative Number")
+	}
+	
+	return math.Sqrt(x), nil
+}
+

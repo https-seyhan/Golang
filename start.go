@@ -23,4 +23,12 @@ func main() {
 	b = append(b, 13)
 	fmt.Println(a)
 	fmt.Println(b)
+	
+	vertices := make(map[string]int)
+	
+	vertices["triangle"] =2
+	vertices["square"] = 3
+	vertices["dodecagon"] = 12
+	
+	fmt.Println(vertices)
 }

@@ -60,6 +60,13 @@ func main() {
 	
 	pointer := 7
 	fmt.Println(&pointer)
+	inc(&pointer)
+	fmt.Println(pointer)
+}
+
+
+func inc(x *int) {
+	*x++
 }
 
 func sum(x int, y int) int {

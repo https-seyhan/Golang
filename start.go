@@ -29,7 +29,7 @@ func main() {
 	vertices["triangle"] =2
 	vertices["square"] = 3
 	vertices["dodecagon"] = 12
-	
+	delete(vertices, "square")
 	fmt.Println(vertices)
 	fmt.Println(vertices["triangle"])
 }

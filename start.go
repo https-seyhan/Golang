@@ -57,6 +57,9 @@ func main() {
 	
 	result :=sum(4,5)
 	fmt.Println(result)
+	
+	pointer := 7
+	fmt.Println(&pointer)
 }
 
 func sum(x int, y int) int {

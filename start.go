@@ -31,4 +31,5 @@ func main() {
 	vertices["dodecagon"] = 12
 	
 	fmt.Println(vertices)
+	fmt.Println(vertices["triangle"])
 }

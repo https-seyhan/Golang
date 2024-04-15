@@ -16,4 +16,7 @@ func main() {
 	if x > 7 {
 		fmt.Println(x)
 	}
+	
+	var a [5]int
+	fmt.Println(a)
 }

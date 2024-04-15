@@ -5,9 +5,16 @@ import (
 	"errors"
 	"math"
 )
+type person struct {
+	name string
+	age int
+}
 
 func main() {
 
+	p :=person {name: "Saul", age: 35}
+	fmt.Println(p)
+	
 	//fmt.Println("Test")
 	x := 5
 	//var y int = 7
